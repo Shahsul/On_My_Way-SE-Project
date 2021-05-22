@@ -1,0 +1,78 @@
+name: alatareekeh
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sizer: ^1.1.7
+  shared_preferences: ^2.0.4
+  easy_localization: ^3.0.0
+  animated_text_kit: ^3.0.1
+  http: ^0.13.0
+  modal_progress_hud: ^0.1.3
+  google_maps_flutter: ^2.0.1
+  date_time_picker: ^2.0.0
+  geolocator: ^3.0.1
+  flutter_easyloading: ^2.2.2
+  flutter_spinkit: ^4.1.2
+  url_launcher: ^5.7.10
+  fluttertoast: ^7.1.6
+  package_info: ^0.4.3+2
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/ui/icon/appicon.png"
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/ui/splashscreen/
+  - assets/ui/splashscreen/appicon.png
+  - assets/resources/strings/en.json
+  - assets/resources/strings/ar.json
+  - assets/ui/privacypolicy/
+  - assets/ui/login/
+  - assets/ui/register/
+  - assets/ui/forgetpassword/
+  - assets/ui/addseekservice/
+  - assets/ui/addappointment/
+  - assets/ui/search/
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
